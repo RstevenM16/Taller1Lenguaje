@@ -1,0 +1,58 @@
+@font-face
+{
+    font-family: 'letra';
+    src: url(../font/04B_30__.TTF);
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+.hoja{
+    font: bold 100px verdana, sans-serif;
+    text-align: center;
+    font-family: 'letra';
+}
+.datos-perso{
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    font-family: 'letra';
+}
+.CURSO{
+    background-color: rgb(93, 179, 255);
+    color: aliceblue;
+}
+.descripcion{
+    font: bold 50px verdana, sans-serif;
+    text-align: center;
+    font-family: 'letra';
+}
+.mario{
+    float: right;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.marioexpresivo{
+    width: 200px;
+}
+footer address{
+    text-align: center;
+    align-items: center;
+}
+.fa-facebook-square{
+    background: rgb(25, 0, 248);
+    width: 35px;
+    border-radius: 5px;
+
+}
+.fa-twitter-square{
+    background: rgb(0, 161, 248);
+    width: 35px;
+    border-radius: 5px;
+}
+.fa-instagram{
+    background: linear-gradient(to top right,#FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    width: 35px;
+    border-radius: 5px;
+}
